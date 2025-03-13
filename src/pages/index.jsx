@@ -1,3 +1,5 @@
+import Hero from "@/sections/Hero/Hero.jsx";
+
 export const metadata = {
     title: 'Home',
 }
@@ -5,7 +7,7 @@ export const metadata = {
 export default function () {
   return (
     <>
-
+        <Hero />
     </>
   )
 }
